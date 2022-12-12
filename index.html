@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" type="image/x-icon" href="img/cloudy.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+</head>
+<body>
+    <!-- <div class="all"> -->
+    <!-- <div class="pics"> -->
+    <img class='weather-img' id="clrd" src="img/clearskyd.jpg" alt="">
+    <img class='weather-img' id='clrn' src="img/clearskyn.jpg" alt="">
+    <img class='weather-img' id='cldsd'src="img/cldsdf.jpg" alt=""> 
+    <img class='weather-img' id='cldsnf'src="img/cldsnf.webp" alt="">
+    <img  class='weather-img' id='brkd'src="img/brkd.jpg" alt="">
+    <img class='weather-img' id="brkn" src="img/brkn.jpg" alt="">
+    <img class='weather-img' id="strd" src="img/strd.jpg" alt="">
+    <img class='weather-img' id='strn'src="img/strn.jpg" alt="">
+    <img class='weather-img' id='rd'src="img/rd.jpg" alt="">
+    <img class='weather-img' id='rn'src="img/rn.jpg" alt="">
+    <img class='weather-img' id='hrd'src="img/hrd.jfif" alt="">
+    <img class='weather-img' id='hrn'src="img/hrn.jpg" alt="">
+    <img  class='weather-img' id='storm' src="img/storm.jpg" alt="">
+    <img class='weather-img' id='snowd'src="img/snowd.jpg" alt="">
+    <img class='weather-img' id='snown'src="img/snown.jpg" alt="">
+    <img class='weather-img' id='mistd'src="img/mistd.jpg" alt="">
+   <img class='weather-img' id='mistn'src="img/mistn.jpg" alt="">
+    
+
+<div class="form" id="allDiv">
+<form id="info">
+<div class="loading" id='loading'>
+ <div class="dot-spinner">
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+</div>
+ </div>
+<div id="data">
+<input id="city-name" type="text" placeholder="write a city name" required/>
+<button class="btn">Search</button>
+</div>
+</form>
+<form>
+<div id="afterSubmit">
+
+</div>
+
+</form>
+</div>
+<!-- </div> -->
+<!-- </div> -->
+<script src="main.js"></script>
+</body>
+</html>
